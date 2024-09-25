@@ -12,32 +12,37 @@
 </head>
 <body id="top" data-spy="scroll">
 	<section class="preloader"></section>
-	<nav class="navbar navbar-expand-sm bg-light navbar-light sticky-top" role="navigation">
+	<nav class="navbar navbar-expand-md bg-light navbar-light sticky-top" role="navigation">
 		<div class="container">
 			<a class="navbar-brand" href="index.html">
 				<img src="images/logo.png" alt="Logo" width="20px">
 			</a>
-			<ul class="nav navbar-nav navbar-right">
-				<li class="nav-item mx-2">
-					<a class="nav-link smoothScroll" href="#top">Home</a>
-				</li>
-				<li class="nav-item mx-2">
-					<a class="nav-link smoothScroll" href="#about">About</a>
-				</li>
-				<li class="nav-item mx-2">
-					<a class="nav-link smoothScroll" href="#benefits">Benefits</a>
-				</li>
-				<li class="nav-item mx-2">
-					<a class="nav-link smoothScroll" href="#doctors">Doctors</a>
-				</li>
-				<li class="nav-item mx-2">
-					<a class="nav-link smoothScroll" href="#news">News</a>
-				</li>
-				<li class="nav-item mx-2">
-					<a class="nav-link smoothScroll" href="#google-map">Contact</a>
-				</li>
-				<a type="button" class="btn book-btn mx-2" href="#book-online">Book Online</a>
-			</ul>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+	            <span class="navbar-toggler-icon"></span>
+	        </button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="nav navbar-nav ms-auto">
+					<li class="nav-item mx-2">
+						<a class="nav-link smoothScroll" href="#top">Home</a>
+					</li>
+					<li class="nav-item mx-2">
+						<a class="nav-link smoothScroll" href="#about">About</a>
+					</li>
+					<li class="nav-item mx-2">
+						<a class="nav-link smoothScroll" href="#benefits">Benefits</a>
+					</li>
+					<li class="nav-item mx-2">
+						<a class="nav-link smoothScroll" href="#doctors">Doctors</a>
+					</li>
+					<li class="nav-item mx-2">
+						<a class="nav-link smoothScroll" href="#news">News</a>
+					</li>
+					<li class="nav-item mx-2">
+						<a class="nav-link smoothScroll" href="#google-map">Contact</a>
+					</li>
+					<a type="button" class="btn book-btn mx-2" href="#book-online">Book Online</a>
+				</ul>
+			</div>
 		</div>
 	</nav>
 	<div id="demo" class="carousel slide" data-bs-ride="carousel" data-stellar-background-ratio="0.5">
@@ -80,7 +85,7 @@
 							<p>This hospital has been operated for over 10 years. Built since 2013 with paintasking manufacture, it takes hard work from the workers. So to build, it takes at least 1 year and $93 million USD, with manufacturing and building materials that already have earthquake-resistant safety standards. This hospital is located in a strategic location, which is about 2.7 miles from downtown Los Angeles. Since now, we are served more than 800,000 patients around of the world.</p>
 						</div>
 						<figure class="profile wow fadeInUp" data-wow-delay="1s">
-							<img src="images/author.jpg" class="img-responsive" alt="">
+							<img src="images/author.jpg" class="img-fluid" alt="">
 							<figcaption>
 								<h3>Drs. Elijah Moore</h3>
 								<p>General Principal</p>
@@ -103,7 +108,7 @@
 				</div>
 				<div class="d-flex justify-content-between mt-3">
 					<div class="card wow fadeInUp col-sm-3" data-wow-delay="0.2s">
-						<img class="card-img-top" src="images/lamc3.jpg" alt="Los Angeles Medical Center" class="img-responsive" width="100%">
+						<img class="card-img-top" src="images/lamc3.jpg" alt="Los Angeles Medical Center" class="img-fluid">
 						<div class="card-body">
 							<h3 class="card-title"><i class="fa fa-map-marker lami"></i>Strategic Location</h3>
 							<p class="card-text">Our hospital are in strategic location, in downtown of Los Angeles.</p>
@@ -111,7 +116,7 @@
 						</div>
 					</div>
 					<div class="card wow fadeInUp col-sm-3" data-wow-delay="0.4s">
-						<img class="card-img-top" src="images/accomodation.jpg" alt="Accomodation" class="img-responsive" width="100%">
+						<img class="card-img-top" src="images/accomodation.jpg" alt="Accomodation" class="img-fluid">
 						<div class="card-body">
 							<h3 class="card-title"><i class="fa fa-hospital-o lami"></i>Accomodation</h3>
 							<p class="card-text">Very affordable price, so don't worry! We open service for cheap money.</p>
@@ -119,7 +124,7 @@
 						</div>
 					</div>
 					<div class="card wow fadeInUp col-sm-3" data-wow-delay="0.6s">
-						<img class="card-img-top" src="images/24-7-service.jpg" alt="Customer Service" class="img-responsive" width="100%">
+						<img class="card-img-top" src="images/24-7-service.jpg" alt="Customer Service" class="img-fluid">
 						<div class="card-body">
 							<h3 class="card-title"><i class="fa fa-phone lami"></i>Customer Service</h3>
 							<p class="card-text">We also support the customer service 24/7! Also on weekends, holidays, we are ready.</p>
@@ -140,7 +145,7 @@
 					<hr>
 					<div class="d-flex justify-content-between mt-3">
 						<div class="card wow fadeInUp col-sm-3" data-wow-delay="0.2s">
-							<img class="card-img-top" src="images/doctor1.jpg" alt="Elijah Moore" class="img-responsive" width="100%">
+							<img class="card-img-top" src="images/doctor1.jpg" alt="Elijah Moore" class="img-fluid">
 							<div class="card-body">
 								<h3 class="card-title"><i class="fa fa-user lami"></i>Elijah Moore</h3>
 								<p class="card-text">General Principal</p>
@@ -153,7 +158,7 @@
 							</div>
 						</div>
 						<div class="card wow fadeInUp col-sm-3" data-wow-delay="0.4s">
-							<img class="card-img-top" src="images/doctor2.jpg" alt="Fabian Moore" class="img-responsive" width="100%">
+							<img class="card-img-top" src="images/doctor2.jpg" alt="Fabian Moore" class="img-fluid">
 							<div class="card-body">
 								<h3 class="card-title"><i class="fa fa-user lami"></i>Fabian Moore</h3>
 								<p class="card-text">Nephrology</p>
@@ -166,7 +171,7 @@
 							</div>
 						</div>
 						<div class="card wow fadeInUp col-sm-3" data-wow-delay="0.6s">
-							<img class="card-img-top" src="images/doctor3.jpg" alt="Luigi Moser" class="img-responsive" width="100%">
+							<img class="card-img-top" src="images/doctor3.jpg" alt="Luigi Moser" class="img-fluid">
 							<div class="card-body">
 								<h3 class="card-title"><i class="fa fa-user lami"></i>Luigi Moser</h3>
 								<p class="card-text">Respiratory Consultant</p>
@@ -194,7 +199,7 @@
 				</div>
 				<div class="d-flex justify-content-between mt-3">
 					<div class="card wow fadeInUp col-sm-3" data-wow-delay="0.2s">
-						<a href="news-detail.html"><img class="card-img-top" src="images/news1.jpg" alt="Covid-19" class="img-responsive" width="100%"></a>
+						<a href="news-detail.html"><img class="card-img-top" src="images/news1.jpg" alt="Covid-19" class="img-fluid"></a>
 						<div class="card-body">
 							<p class="card-text">April 15th, 2023</p>
 							<h3 class="card-title"><a href="news-detail.html">Beware COVID-19!</a></h3>
@@ -202,7 +207,7 @@
 						</div>
 					</div>
 					<div class="card wow fadeInUp col-sm-3" data-wow-delay="0.4s">
-						<a href="news-detail.html"><img class="card-img-top" src="images/news2.jpg" alt="Covid-19" class="img-responsive" width="100%"></a>
+						<a href="news-detail.html"><img class="card-img-top" src="images/news2.jpg" alt="Covid-19" class="img-fluid"></a>
 						<div class="card-body">
 							<p class="card-text">April 14th, 2023</p>
 							<h3 class="card-title"><a href="news-detail.html">Beware COVID-19!</a></h3>
@@ -210,7 +215,7 @@
 						</div>
 					</div>
 					<div class="card wow fadeInUp col-sm-3" data-wow-delay="0.6s">
-						<a href="news-detail.html"><img class="card-img-top" src="images/news3.jpg" alt="Health Problem" class="img-responsive" width="100%"></a>
+						<a href="news-detail.html"><img class="card-img-top" src="images/news3.jpg" alt="Health Problem" class="img-fluid"></a>
 						<div class="card-body">
 							<p class="card-text">February 20th, 2023</p>
 							<h3 class="card-title"><a href="news-detail.html">Health Problem</a></h3>
@@ -235,7 +240,7 @@
 					<div class="d-flex justify-content-between mt-3">
 						<div class="col-md-1"></div>
 						<div class="d-flex align-items-end col-md-4 col-sm-6">
-							<img src="images/appointment.png" class="img-responsive" alt="" width="90%">
+							<img src="images/appointment.png" class="img-fluid" alt="" width="90%">
 						</div>
 						<div class="col-md-1"></div>
 						<div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">

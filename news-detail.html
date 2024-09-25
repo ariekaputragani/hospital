@@ -12,39 +12,44 @@
 </head>
 <body id="top" data-spy="scroll">
 	<section class="preloader"></section>
-	<nav class="navbar navbar-expand-sm bg-light navbar-light sticky-top" role="navigation">
+	<nav class="navbar navbar-expand-md bg-light navbar-light sticky-top" role="navigation">
 		<div class="container">
 			<a class="navbar-brand" href="index.html">
 				<img src="images/logo.png" alt="Logo" width="20px">
 			</a>
-			<ul class="nav navbar-nav navbar-right">
-				<li class="nav-item mx-2">
-					<a class="nav-link smoothScroll" href="index.html#top">Home</a>
-				</li>
-				<li class="nav-item mx-2">
-					<a class="nav-link smoothScroll" href="index.html#about">About</a>
-				</li>
-				<li class="nav-item mx-2">
-					<a class="nav-link smoothScroll" href="index.html#benefits">Benefits</a>
-				</li>
-				<li class="nav-item mx-2">
-					<a class="nav-link smoothScroll" href="index.html#doctors">Doctors</a>
-				</li>
-				<li class="nav-item mx-2">
-					<a class="nav-link smoothScroll" href="index.html#news">News</a>
-				</li>
-				<li class="nav-item mx-2">
-					<a class="nav-link smoothScroll" href="index.html#google-map">Contact</a>
-				</li>
-				<a type="button" class="btn book-btn mx-2" href="index.html#book-online">Book Online</a>
-			</ul>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+	            <span class="navbar-toggler-icon"></span>
+	        </button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="nav navbar-nav ms-auto">
+					<li class="nav-item mx-2">
+						<a class="nav-link smoothScroll" href="index.html#top">Home</a>
+					</li>
+					<li class="nav-item mx-2">
+						<a class="nav-link smoothScroll" href="index.html#about">About</a>
+					</li>
+					<li class="nav-item mx-2">
+						<a class="nav-link smoothScroll" href="index.html#benefits">Benefits</a>
+					</li>
+					<li class="nav-item mx-2">
+						<a class="nav-link smoothScroll" href="index.html#doctors">Doctors</a>
+					</li>
+					<li class="nav-item mx-2">
+						<a class="nav-link smoothScroll" href="index.html#news">News</a>
+					</li>
+					<li class="nav-item mx-2">
+						<a class="nav-link smoothScroll" href="index.html#google-map">Contact</a>
+					</li>
+					<a type="button" class="btn book-btn mx-2" href="index.html#book-online">Book Online</a>
+				</ul>
+			</div>
 		</div>
 	</nav>
 	<div class="lamcn">
 		<section id="ads">
 			<div class="container p-5">
 				<div class="ads-1">
-					<a id="ads-b" href="#" class="ads-2"><img src="images/ads1.jpg" alt="" class="img-responsive" width="100%"></a>
+					<a id="ads-b" href="#" class="ads-2"><img src="images/ads1.jpg" alt="" class="img-fluid"></a>
 					<a id="ads-bx" href="javascript:void(0)" onclick="closeAd1()" class="ads-3"></a>
 					<div id="ads-ba" class="ads-4 justify-content-center">
 						<div class="ads-5 align-self-center">
@@ -62,7 +67,7 @@
 						<h1>Beware of the COVID-19: New Covid-19 variant</h1>
 						<hr>
 						<p>By Ruby Booseman - April 14th, 2023</p>
-						<img src="images/news2.jpg" class="img-responsive" width="100%" alt="">
+						<img src="images/news2.jpg" class="img-fluid" alt="">
 						<p class="mt-2">WHO reported it was monitoring a new Covid-19 subvariant named Arcturus. The variant was first detected in serveral countries at the end of January.</p>
 						<p>Now, we confirmated that the new Covid-19 variant Arcturus alias subvariant Omicron XBB 1.16. Covid-19 Arcturus variant was spreading fast in India.</p>
 						<blockquote>
@@ -92,11 +97,11 @@
 						<h2 class="wow fadeInLeft mb-2" data-wow-delay="0.1s">Recommended Posts</h2>
 						<div class="row">
 							<div class="col-4">
-								<a href="#"><img src="images/news1.jpg" class="img-responsive wow fadeInLeft" alt="" width="100%" data-wow-delay="0.4s"></a>
+								<a href="#"><img src="images/news1.jpg" class="img-fluid wow fadeInLeft" alt="" data-wow-delay="0.4s"></a>
 								<div class="rc-text wow fadeInUp" data-wow-delay="0.2s"><a href="#">Beware of the Covid-19: Singapore was hit by the 10th wave</a></div>
 							</div>
 							<div class="col-4">
-								<a href="#"><img src="images/news3.jpg" class="img-responsive wow fadeInLeft" alt="" width="100%" data-wow-delay="0.2s"></a>
+								<a href="#"><img src="images/news3.jpg" class="img-fluid wow fadeInLeft" alt="" data-wow-delay="0.2s"></a>
 								<div class="rc-text wow fadeInUp" data-wow-delay="0.4s"><a href="#">As reports of health problem near a toxic train wreck pile up</a></div>
 							</div>
 						</div>
@@ -105,7 +110,7 @@
 					<h1 class="pt-3 px-3" style="background: #75b04c">Recent Posts<hr class="pb-2"></h1>
 					<div class="row rn-p mb-2">
 						<div class="col-md-4 col-sm-6 ms-2">
-							<a href="#"><img src="images/news1.jpg" class="img-responsive" alt="" width="100%"></a>
+							<a href="#"><img src="images/news1.jpg" class="img-fluid" alt=""></a>
 						</div>
 						<div class="col md-8 col-sm-6">
 							<span>5d ago - </span>
@@ -114,7 +119,7 @@
 					</div>
 					<div class="row rn-p mb-2">
 						<div class="col-md-4 col-sm-6 ms-2">
-							<a href="#"><img src="images/news3.jpg" class="img-responsive" alt="" width="100%"></a>
+							<a href="#"><img src="images/news3.jpg" class="img-fluid" alt=""></a>
 						</div>
 						<div class="col md-8 col-sm-6">
 							<span>1m ago - </span>
@@ -130,7 +135,7 @@
 							<li><a href="#"><i class="fa fa-angle-right"></i> Consultant</a></li>
 					</div>
 					<div class="ads-1" style="margin-bottom: 30px">
-						<a id="ads-sd" href="#" class="ads-2"><img src="images/ads2.jpg" alt="" class="img-responsive" width="100%"></a>
+						<a id="ads-sd" href="#" class="ads-2"><img src="images/ads2.jpg" alt="" class="img-fluid"></a>
 						<a id="ads-sdx" href="javascript:void(0)" onclick="closeAd2()" class="fa fa-close ads-6"></a>
 						<div id="ads-sda" class="ads-4 justify-content-center">
 							<div class="ads-5 ads-7 align-self-center">
